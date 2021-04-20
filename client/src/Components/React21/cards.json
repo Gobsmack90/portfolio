@@ -1,0 +1,265 @@
+{
+    "deck": [
+        {
+            "cardName": "2 of Hearts",
+            "cardValue": 2,
+            "id": "2h",
+            "url": "https://i.imgur.com/zwrCTDC.png"
+        },{
+            "cardName": "3 of Hearts",
+            "cardValue": 3,
+            "id": "3h",
+            "url": "https://i.imgur.com/6VGV63R.png"
+        },{
+            "cardName": "4 of Hearts",
+            "cardValue": 4,
+            "id": "4h",
+            "url": "https://i.imgur.com/tkS9OCL.png"
+        },{
+            "cardName": "5 of Hearts",
+            "cardValue": 5,
+            "id": "5h",
+            "url": "https://i.imgur.com/MPAZr1i.png"
+        },{
+            "cardName": "6 of Hearts",
+            "cardValue": 6,
+            "id": "6h",
+            "url": "https://i.imgur.com/rETUODy.png"
+        },{
+            "cardName": "7 of Hearts",
+            "cardValue": 7,
+            "id": "7h",
+            "url": "https://i.imgur.com/2XchcGV.png"
+        },{
+            "cardName": "8 of Hearts",
+            "cardValue": 8,
+            "id": "8h",
+            "url": "https://i.imgur.com/Jz4b65H.png"
+        },{
+            "cardName": "9 of Hearts",
+            "cardValue": 9,
+            "id": "9h",
+            "url": "https://i.imgur.com/pvLDPK5.png"
+        },{
+            "cardName": "10 of Hearts",
+            "cardValue": 10,
+            "id": "0h",
+            "url": "https://i.imgur.com/0MUZKeE.png"
+        },{
+            "cardName": "Jack of Hearts",
+            "cardValue": 10,
+            "id": "jh",
+            "url": "https://i.imgur.com/o1JjM7w.png"
+        },{
+            "cardName": "Queen of Hearts",
+            "cardValue": 10,
+            "id": "qh",
+            "url": "https://i.imgur.com/hFgAV8v.png"
+        },{
+            "cardName": "King of Hearts",
+            "cardValue": 10,
+            "id": "kh",
+            "url": "https://i.imgur.com/VL5z0mZ.png"
+        },{
+            "cardName": "2 of Diamonds",
+            "cardValue": 2,
+            "id": "2d",
+            "url": "https://i.imgur.com/bQABcrO.png"
+        },{
+            "cardName": "3 of Diamonds",
+            "cardValue": 3,
+            "id": "3d",
+            "url": "https://i.imgur.com/GNw4lKb.png"
+        },{
+            "cardName": "4 of Diamonds",
+            "cardValue": 4,
+            "id": "4d",
+            "url": "https://i.imgur.com/XOCrcMs.png"
+        },{
+            "cardName": "5 of Diamonds",
+            "cardValue": 5,
+            "id": "5d",
+            "url": "https://i.imgur.com/BoFEGUH.png"
+        },{
+            "cardName": "6 of Diamonds",
+            "cardValue": 6,
+            "id": "6d",
+            "url": "https://i.imgur.com/P3MPSHK.png"
+        },{
+            "cardName": "7 of Diamonds",
+            "cardValue": 7,
+            "id": "7d",
+            "url": "https://i.imgur.com/VHSGL8o.png"
+        },{
+            "cardName": "8 of Diamonds",
+            "cardValue": 8,
+            "id": "8d",
+            "url": "https://i.imgur.com/xMWzRN9.png"
+        },{
+            "cardName": "9 of Diamonds",
+            "cardValue": 9,
+            "id": "9d",
+            "url": "https://i.imgur.com/UqFecrg.png"
+        },{
+            "cardName": "10 of Diamonds",
+            "cardValue": 10,
+            "id": "0d",
+            "url": "https://i.imgur.com/qFkny2A.png"
+        },{
+            "cardName": "Jack of Diamonds",
+            "cardValue": 10,
+            "id": "jd",
+            "url": "https://i.imgur.com/HTbvQmk.png"
+        },{
+            "cardName": "Queen of Diamonds",
+            "cardValue": 10,
+            "id": "qd",
+            "url": "https://i.imgur.com/8FBE3IG.png"
+        },{
+            "cardName": "King of Diamonds",
+            "cardValue": 10,
+            "id": "kd",
+            "url": "https://i.imgur.com/238jS72.png"
+        },{
+            "cardName": "2 of Spades",
+            "cardValue": 2,
+            "id": "2s",
+            "url": "https://i.imgur.com/mx3csfe.png"
+        },{
+            "cardName": "3 of Spades",
+            "cardValue": 3,
+            "id": "3s",
+            "url": "https://i.imgur.com/mGF5Svp.png"
+        },{
+            "cardName": "4 of Spades",
+            "cardValue": 4,
+            "id": "4s",
+            "url": "https://i.imgur.com/nxQidxg.png"
+        },{
+            "cardName": "5 of Spades",
+            "cardValue": 5,
+            "id": "5s",
+            "url": "https://i.imgur.com/KUlAGD6.png"
+        },{
+            "cardName": "6 of Spades",
+            "cardValue": 6,
+            "id": "6s",
+            "url": "https://i.imgur.com/REUuCfa.png"
+        },{
+            "cardName": "7 of Spades",
+            "cardValue": 7,
+            "id": "7s",
+            "url": "https://i.imgur.com/oxBwWJd.png"
+        },{
+            "cardName": "8 of Spades",
+            "cardValue": 8,
+            "id": "8s",
+            "url": "https://i.imgur.com/9tfXQAt.png"
+        },{
+            "cardName": "9 of Spades",
+            "cardValue": 9,
+            "id": "9s",
+            "url": "https://i.imgur.com/r3MCKVK.png"
+        },{
+            "cardName": "10 of Spades",
+            "cardValue": 10,
+            "id": "0s",
+            "url": "https://i.imgur.com/d9v1CRJ.png"
+        },{
+            "cardName": "Jack of Spades",
+            "cardValue": 10,
+            "id": "js",
+            "url": "https://i.imgur.com/nZMyzWD.png"
+        },{
+            "cardName": "Queen of Spades",
+            "cardValue": 10,
+            "id": "qs",
+            "url": "https://i.imgur.com/kNJ6kbE.png"
+        },{
+            "cardName": "King of Spades",
+            "cardValue": 10,
+            "id": "ks",
+            "url": "https://i.imgur.com/ZaMYDb0.png"
+        },{
+            "cardName": "2 of Clubs",
+            "cardValue": 2,
+            "id": "2c",
+            "url": "https://i.imgur.com/21Rqzah.png"
+        },{
+            "cardName": "3 of Clubs",
+            "cardValue": 3,
+            "id": "3c",
+            "url": "https://i.imgur.com/HZ9ZqIO.png"
+        },{
+            "cardName": "4 of Clubs",
+            "cardValue": 4,
+            "id": "4c",
+            "url": "https://i.imgur.com/C5P4PyH.png"
+        },{
+            "cardName": "5 of Clubs",
+            "cardValue": 5,
+            "id": "5c",
+            "url": "https://i.imgur.com/AY9X0po.png"
+        },{
+            "cardName": "6 of Clubs",
+            "cardValue": 6,
+            "id": "6c",
+            "url": "https://i.imgur.com/BnMdfBi.png"
+        },{
+            "cardName": "7 of Clubs",
+            "cardValue": 7,
+            "id": "7c",
+            "url": "https://i.imgur.com/O8UkQfk.png"
+        },{
+            "cardName": "8 of Clubs",
+            "cardValue": 8,
+            "id": "8c",
+            "url": "https://i.imgur.com/nGqcdI5.png"
+        },{
+            "cardName": "9 of Clubs",
+            "cardValue": 9,
+            "id": "9c",
+            "url": "https://i.imgur.com/0ptsz39.png"
+        },{
+            "cardName": "10 of Clubs",
+            "cardValue": 10,
+            "id": "0c",
+            "url": "https://i.imgur.com/eN587IA.png"
+        },{
+            "cardName": "Jack of Clubs",
+            "cardValue": 10,
+            "id": "jc",
+            "url": "https://i.imgur.com/sVSeajE.png"
+        },{
+            "cardName": "Queen of Clubs",
+            "cardValue": 10,
+            "id": "qc",
+            "url": "https://i.imgur.com/pnwqpVw.png"
+        },{
+            "cardName": "King of Clubs",
+            "cardValue": 10,
+            "id": "kc",
+            "url": "https://i.imgur.com/3EziJv8.png"
+        },{
+            "cardName": "Ace of Clubs",
+            "cardValue": null,
+            "id": "ac",
+            "url": "https://i.imgur.com/zqcd532.png"
+        },{
+            "cardName": "Ace of Spades",
+            "cardValue": null,
+            "id": "as",
+            "url": "https://i.imgur.com/l9NoBR6.png"
+        },{
+            "cardName": "Ace of Diamonds",
+            "cardValue": null,
+            "id": "ad",
+            "url": "https://i.imgur.com/cuS99Z2.png"
+        },{
+            "cardName": "Ace of Hearts",
+            "cardValue": null,
+            "id": "ah",
+            "url": "https://i.imgur.com/AVNr8u6.png"
+        }
+    ]
+}

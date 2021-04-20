@@ -1,0 +1,162 @@
+{
+  "main": {
+    "name":"Harrison King",
+    "occupation":"Fullstack Developer",
+    "description":"I live for creativity. Every new technology I learn, every new job I take, I do so to better express that creativity. Lets make something incredible together",
+    "image":"profilepic.jpg",
+    "bio":"I specialize in React, express, mongoDB and Mongoose. I have put hundreds of hours into building web apps using NodeJS and GitHub. I’ve worked with partners on these apps while using the principles of Agile development.",
+    "contactmessage":"Don't hesitate to contact me. I'd love to discuss any opportunities.",
+    "email": "authorharrisonking@gmail.com",
+    "phone": "801-860-0773",
+    "address":{
+      "street":"4900 Southridge Drive",
+      "city":"Salt Lake City",
+      "state":"Utah",
+      "zip": "84129"
+    },
+    "website": "http://www.harrisonking.com",
+    "resumedownload":"http://harrisonking.com/resume",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/harrison-king-886b2620b/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/Gobsmack90",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"freeCodeCamp",
+        "url":"https://www.freecodecamp.org/gobsmack",
+        "className":"fa fa-code"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"While most of my focus thus far has been on front end development, I am able to work on the back-end. I'm studying and working on both sides of development all the time to increase my skills and shore up my shortcomings.",
+    "education":[
+      {
+        "school":"University of Utah",
+        "degree":"Bachelor of Arts, Film and Media Arts",
+        "graduated":"December 2016",
+        "description":"My focus at school was on screenwriting and editing. I learned how to take disparate elements and make a story out of them. I've taken those skills with me into my programming. I have a vision of what I want, and know what elements are needed to accomplish that vision."
+      }
+    ],
+    "work":[
+      {
+        "company":"TBDG",
+        "title":"Freelance Developer",
+        "years":"Dec 2020 - Present",
+        "description":"I've been doing some freelance Web Dev with a team of friends. I've mostly been programming in React and working on front end stuff in the projects we've worked on together."
+      },
+      {
+        "company":"Teck Advanced Materials",
+        "title":"Material Technician ",
+        "years":"Jan 2017 - Present",
+        "description":"I work with copper, tin and other metals. We purify, clean, mold and prep metals for electronics manufacturing."
+      },
+      {
+        "company":"TMRW Productions",
+        "title":"Editor/Content Director",
+        "years":"Jan 2016 - May 2017",
+        "description":"Made professional videos for companies. Worked on set, in pre-production, and edited. Also had a role in sales."
+      },
+      {
+        "company":"Wasatch Savings",
+        "title":"Account Rep",
+        "years":"Jun 2014 - Sep 2016",
+        "description":"Recruited and worked with businesses to put them in the Wasatch Savings Guide, a school fundraiser deals book."
+      }
+    ],
+    "skills":[
+      {
+        "name":"ReactJs",
+        "level":"80%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"90%"
+      },
+      {
+        "name":"CSS",
+        "level":"70%"
+      },
+      {
+        "name":"HTML5",
+        "level":"70%"
+      },
+      {
+        "name":"Express",
+        "level":"40%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"50%"
+      },
+      {
+        "name":"NodeJS",
+        "level":"60%"
+      },
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"JQuery",
+        "level":"40%"
+      },
+      {
+        "name":"Common Front End Libraries, incl. Bootstrap, Sass, Redux",
+        "level":"60%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Our Fish Collective",
+        "category":"Participating in a rebuild of this website. You can see our progress in the github below. We're adding a better multivendor setup to the site.",
+        "image":"ofc_rebuild.png",
+        "url":"https://github.com/TBDG/ofc-front-end"
+      },
+      {
+        "title":"The Waterfront",
+        "category":"A minor website rebuild my team was hired to work on.",
+        "image":"theWaterfront.png",
+        "url":"https://thewaterfrontslc.com/"
+      },
+      {
+        "title":"Minecraft Node Wrapper",
+        "category":"Contributer to a project which uses MongoDB to add new functionality to Minecraft.",
+        "image":"Minecraft-Node-Wrapper.png",
+        "url":"https://github.com/JoshuaBaert/mc-node-wrapper"
+      },
+      {
+        "title":"React 21",
+        "category":"I built a primitive blackjack app as practice in React.",
+        "image":"resume-website.jpg",
+        "url":"https://harrisonking.com/react21"
+      },
+      {
+        "title":"Projects created for freeCodeCamp",
+        "category":"Scroll through the projects I've completed for course credit.",
+        "image":"freeCodeCamp-profile.png",
+        "url":"https://www.freecodecamp.org/gobsmack"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
