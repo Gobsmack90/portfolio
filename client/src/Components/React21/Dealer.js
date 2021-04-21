@@ -1,3 +1,5 @@
+import React from 'react';
+
 class Dealer extends React.Component {
     constructor(props) {
         super(props);
@@ -37,3 +39,5 @@ class Dealer extends React.Component {
         )
     }  
 }
+
+export default Dealer;

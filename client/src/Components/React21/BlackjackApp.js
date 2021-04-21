@@ -1,4 +1,11 @@
+import React from 'react';
+import Dealer from './Dealer';
+import Menu from './Menu';
+import User from './User';
+import './BlackjackApp.scss'
+const getDeck = require('./cards.json');
 
+let fullDeck = getDeck.deck;
 
 class Blackjack extends React.Component {
     constructor(props) {
@@ -139,16 +146,16 @@ class Blackjack extends React.Component {
     }
 
     reset() {
-        if (confirm('Reset the game?')) {
+        if (window.confirm('Reset the game?')) {
             this.setState({
-            deck: fullDeck,
-            userScore: 0,
-            userHand: [],      
-            dealerScore: 0,
-            dealerHand: [],
-            hidden: false,
-            bet: 0,
-            bank: 10
+                deck: fullDeck,
+                userScore: 0,
+                userHand: [],      
+                dealerScore: 0,
+                dealerHand: [],
+                hidden: false,
+                bet: 0,
+                bank: 10
             });
         }
     }
@@ -227,4 +234,4 @@ class Blackjack extends React.Component {
     }
 }
 
-ReactDOM.render(<Blackjack />, document.getElementById('root'))
+export default Blackjack;
