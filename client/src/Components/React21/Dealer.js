@@ -21,10 +21,19 @@ class Dealer extends React.Component {
     toggleHiddenCard() {
         const hand = this.props.hand;
         if (this.props.faceDown) {
-            return <div><div className="col-xs-2"><img className='img-responsive' src={hand[0].url}></img></div> <div className="col-xs-2"><img className='img-responsive' src='https://i.imgur.com/PbYmXSW.png'></img></div></div>
+            return <div id='position-facedown'>
+                    <div>
+                        <img className='card' src={hand[0].url} alt={hand[0].cardName}></img>
+                    </div>
+                    <div>
+                        <img className='card' alt='Face down card' src='https://i.imgur.com/PbYmXSW.png'></img>
+                    </div>
+                </div>
         };
         return hand.map(x => {
-            return <div className="col-xs-2"> <img className='img-responsive' src={x.url}></img> </div>
+            return <div>
+                    <img className='card' src={x.url} alt={x.cardName}></img> 
+                </div>
         })
     }
 
@@ -32,7 +41,7 @@ class Dealer extends React.Component {
         return(
             <div>
                 <h2>Dealer card total: {this.toggleHiddenScore()} </h2>
-                <div className="row well">
+                <div className='card-layout'>
                     {this.toggleHiddenCard()}
                 </div>
             </div>

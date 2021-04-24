@@ -71,46 +71,51 @@ class Menu extends React.Component {
 
     render() {
         const inputBet = 
-            <form id='enter-bet' onSubmit={this.handleSubmit}>        
-                <input 
-                className="col-xs-1"
-                id='input-bet' 
-                type='number' 
-                min='1' 
-                max={this.props.bank} 
-                value={this.state.input} 
-                onChange={this.handleChange}/>
-                <button 
-                type='submit' 
-                id='enter' 
-                className='btn btn-primary col-xs-1'>Bet</button>
+            <form id='enter-bet' onSubmit={this.handleSubmit}>
+                <p>Place your bet.</p>        
+                <div id='bet-options'>
+                    <input 
+                        id='input-bet' 
+                        type='number' 
+                        min='1' 
+                        max={this.props.bank} 
+                        value={this.state.input} 
+                        onChange={this.handleChange}
+                    />
+                    <button 
+                        type='submit' 
+                        id='enter'
+                    >Bet</button>
+                </div>
             </form>;
         const gameOptions = 
             <div>
-                <button 
-                id='buy' 
-                className='btn btn-primary col-xs-1' 
-                onClick={this.props.buy}>Buy</button>
-                <button 
-                id='stay' 
-                className='btn btn-danger col-xs-1' 
-                onClick={this.props.stay}>Stay</button>
-                <button 
-                ref={btn => { this.btn = btn; }} 
-                id='double' 
-                className='btn btn-success col-xs-1' 
-                onClick={this.onClickDouble}>Double</button>
+                <p>What will you do?</p>
+                <div id='play-options'>
+                    <button 
+                        id='buy'  
+                        onClick={this.props.buy}
+                    >Buy</button>
+                    <button 
+                        id='stay' 
+                        onClick={this.props.stay}
+                    >Stay</button>
+                    <button 
+                        ref={btn => { this.btn = btn; }} 
+                        id='double' 
+                        onClick={this.onClickDouble}
+                    >Double</button>
+                </div>
             </div>
     
         return (
-        <div className="row">
-            <button id='reset' className='btn btn-warning col-xs-1' onClick={this.props.reset}>Reset</button>
+        <div>           
             {
-            this.props.bet === 0 
-            ? inputBet
-            : gameOptions
+                this.props.bet === 0 
+                ? inputBet
+                : gameOptions
             }
-            
+            <button id='reset' onClick={this.props.reset}>Reset</button>
         </div>
         )
     }    

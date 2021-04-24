@@ -1,7 +1,140 @@
-$primary-color: black;
-$secondary-color: white;
+$background: linear-gradient(80deg, rgba(231,230,230,1) 0%, rgba(182,109,11,1) 25%, rgba(240,17,17,1) 50%, rgba(0,152,156,1) 75%, rgba(0,13,56,1) 100%);
+$secondary-color: rgba(0,152,156,1);
+$highlight-color: rgba(240,17,17,1);
 
-body {
-  background: $primary-color;
-  font-family: 'Press Start 2P', Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+#blackjack-app {
+  height: 100vh;
+  background: rgb(231,230,230);
+  background: linear-gradient(80deg, rgba(231,230,230,1) 0%, rgba(182,109,11,1) 25%, rgba(240,17,17,1) 50%, rgba(0,152,156,1) 75%, rgba(0,13,56,1) 100%);
+  padding-top: 60px;
+
+  #bjarea {
+    display: flex;
+    padding: 2%;
+    margin: auto;
+    width: 80%;
+    height: 90%;
+    max-width: 1300px;
+    background-color: white;
+    border-radius: 80px;
+    box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.6);
+  }
+
+  #infoarea {
+    position: relative;
+    height: 90%;
+    margin: auto;
+  }
+
+  #title {
+    text-align: center;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: $secondary-color;
+    height: 85px;
+  }
+  
+  #money {
+    display: flex;
+    justify-content: center;
+  }
+
+  .money-child {
+    padding: 2px;
+    margin: 10px;
+    width: 120px;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: $secondary-color;
+    border-width: 1px;
+  }
+
+  #bet-options {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  #play-options {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  #enter-bet {
+    // background-color: black;
+    margin: 0;
+  }
+  #input-bet {
+    margin: 0 20px 0 0;
+    height: 53px;
+    width: 70px;
+    box-sizing: border-box;
+    font-size: 25px;
+    border-radius: 3px;
+    border-width: 1px;
+  }
+
+  #reset {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  #playarea {
+    width: 60%;
+    height: 90%;
+    margin: auto;
+    margin-right: 5%;
+    text-align: center;
+    background-image: url('./Images/card-table-background.jpeg');
+    border-style: inset;
+    border-color: rgb(42, 117, 58);
+    border-radius: 25px;
+    border-width: 3px;
+    // box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.6);
+
+    h2 {
+      color: white;
+    }
+  }
+
+  .cardarea {
+    margin: 2%;
+    height: 46%;
+    width: 96%;
+    border-style: double;
+    border-color: white;
+    border-radius: 25px;
+    border-width: 3px;
+  }
+
+  #position-facedown {
+    display: flex;
+  }
+  .card-layout {
+    display: flex;  
+    margin-left: 10px;
+  }
+
+  .card {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 20vh;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  
+
+  h1 {
+    // color: $secondary-color;
+    color: $secondary-color;
+    font-family: 'Pacifico', Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+    text-shadow: 2px 2px #000000;
+  }
+
+
 }

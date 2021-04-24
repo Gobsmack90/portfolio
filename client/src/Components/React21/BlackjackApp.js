@@ -197,38 +197,54 @@ class Blackjack extends React.Component {
         }
     }
 
-
     render() {
         return(
-            <div id='app' className="container-fluid">
-                <h1 id='title'>Blackjack Simulator</h1>
-                <h1 id='winOrLose'>{}</h1>
-                <div className="row" id='money'>
-                <h2 className="col-xs-3">Bank: {this.state.bank}</h2>
-                <h2 className="col-xs-3">Bet: {this.state.bet}</h2>
-                </div>
-                <Dealer             
-                hand={this.state.dealerHand}
-                score={this.state.dealerScore}
-                faceDown={this.state.hidden} />
-                <User 
-                hand={this.state.userHand} 
-                score={this.state.userScore} />
-                <Menu 
-                deal={this.dealCard} 
-                recieve={this.recieveCard}
-                dealerHand={this.state.dealerHand}
-                dealerScore={this.state.dealerScore}
-                userHand={this.state.userHand}
-                userScore={this.state.userScore}
-                handleRoundOver={this.handleRoundOver}
-                bank={this.state.bank} 
-                bet={this.state.bet} 
-                inputBet={this.inputBet}
-                buy={this.buy}
-                stay={this.stay}
-                double={this.double}
-                reset={this.reset}/>
+            <div id='blackjack-app'>
+                <div id="bjarea">
+                    <h1 id='winOrLose'>{}</h1>
+                    <div id='infoarea'>
+                        <div id='title'>
+                            <h1>React 21</h1>
+                            <p>A BlackJack Simulator by Harrison King</p>
+                        </div>
+                        <div id='money'>
+                            <p className='money-child'>Bank: {this.state.bank}</p>
+                            <p className='money-child'>Bet: {this.state.bet}</p>
+                        </div>
+                        <Menu 
+                            deal={this.dealCard} 
+                            recieve={this.recieveCard}
+                            dealerHand={this.state.dealerHand}
+                            dealerScore={this.state.dealerScore}
+                            userHand={this.state.userHand}
+                            userScore={this.state.userScore}
+                            handleRoundOver={this.handleRoundOver}
+                            bank={this.state.bank} 
+                            bet={this.state.bet} 
+                            inputBet={this.inputBet}
+                            buy={this.buy}
+                            stay={this.stay}
+                            double={this.double}
+                            reset={this.reset}
+                        />
+                        <p>Can you get 1,000,000 in the Bank?</p>
+                    </div>                      
+                    <div id='playarea'>
+                        <div className='cardarea'>
+                            <Dealer             
+                                hand={this.state.dealerHand}
+                                score={this.state.dealerScore}
+                                faceDown={this.state.hidden}
+                            />
+                        </div>
+                        <div className='cardarea'>
+                            <User 
+                                hand={this.state.userHand} 
+                                score={this.state.userScore} 
+                            />
+                        </div>   
+                    </div>                                       
+                </div>               
             </div>
         )
     }
