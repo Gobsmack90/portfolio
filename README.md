@@ -1,4 +1,4 @@
-# portfolio
+# Harrison King's Portfolio
 ### Live at https://harrisonking.dev
 
 ## This portfolio is built off this one made by Tim Baker
