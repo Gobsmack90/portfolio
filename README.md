@@ -1,10 +1,10 @@
 # portfolio
-###Live at https://harrisonking.dev
+### Live at https://harrisonking.dev
 
-##This portfolio is built off this one made by Tim Baker
+## This portfolio is built off this one made by Tim Baker
 https://github.com/tbakerx/react-resume-template
 
-##My Changes and Additions
+## My Changes and Additions
 = Added React-router-dom for better routing between the main portfolio and any pages added to my site.
 - Added React21 and corresponding files, it is a blackjack app I built in react.
 - Changed some of the aesthetics, like the landing image and highlight color.
