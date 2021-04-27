@@ -18,7 +18,7 @@ class Blackjack extends React.Component {
             dealerHand: [],
             hidden: false,
             bet: 0,
-            bank: 10
+            bank: 100
         };
         this.inputBet = this.inputBet.bind(this);
         this.winConditions = this.winConditions.bind(this);

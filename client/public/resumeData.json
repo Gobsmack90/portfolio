@@ -4,7 +4,7 @@
     "occupation":"Fullstack Developer",
     "description":"I live for creativity. Every new technology I learn, every new job I take, I do so to better express that creativity. Lets make something incredible together",
     "image":"profilepic.jpg",
-    "bio":"I specialize in React, express, mongoDB and Mongoose. I have put hundreds of hours into building web apps using NodeJS and GitHub. I’ve worked with partners on these apps while using the principles of Agile development.",
+    "bio":"I specialize in Javascript, React, Express, mongoDB and Mongoose. I have put hundreds of hours into building web apps using NodeJS and GitHub. I’ve worked with partners on these apps while using the principles of Agile development.",
     "contactmessage":"Don't hesitate to contact me. I'd love to discuss any opportunities.",
     "email": "authorharrisonking@gmail.com",
     "phone": "801-860-0773",
@@ -109,7 +109,7 @@
       },
       {
         "name":"Common Front End Libraries, incl. Bootstrap, Sass, Redux",
-        "level":"60%"
+        "level":"70%"
       }
     ]
   },
@@ -117,45 +117,55 @@
     "projects": [
       {
         "title":"Our Fish Collective",
-        "category":"Participating in a rebuild of this website. You can see our progress in the github below. We're adding a better multivendor setup to the site.",
+        "category":"Participating in a rebuild of this website. We're adding a better multivendor setup to the site.",
+        "details": "(Note: our rebuild is not yet live. This is an ongoing project that started in March 2021.) The primary goal of this rebuild is to allow individual venders to add thier own products without needing to go through the website admin. To this end, we're reconstructing everything in the site. Up to now, I've mainly been involved in the front end side of things. So far, I've built the Footer and Recently Added components.",
         "image":"ofc_rebuild.png",
-        "url":"https://github.com/TBDG/ofc-front-end"
+        "url":"https://www.ourfishcollective.com/",
+        "github":"https://github.com/TBDG/ofc-front-end"
       },
       {
         "title":"The Waterfront",
         "category":"A minor website rebuild my team was hired to work on.",
+        "details": "The same person who hired us for the Our Fish Collective project, first hired us to work on this. We were supposed to add a store to the site, but we were asked to switch focus to Our Fish Collective, and so only a front page is live right now. This site is completely mobile responsive. I built several of the sections on this front page: the footer, landing, testimonials, and location components.",
         "image":"theWaterfront.png",
-        "url":"https://thewaterfrontslc.com/"
+        "url":"https://thewaterfrontslc.com/",
+        "github":"https://github.com/TBDG/waterfront"
       },
       {
         "title":"Minecraft Node Wrapper",
-        "category":"Contributer to a project which uses MongoDB to add new functionality to Minecraft.",
+        "category":"A project which uses MongoDB to add new functionality to Minecraft.",
+        "details": "This project was started with the intent to add some quality-of-life and social features to Minecraft without modding the game itself. We use the built-in minecraft commands and a mongoDB database to give players added functionality. Players can set a home that they can teleport to, warp to other players, store and retrieve experience, and more. I contributed a great deal to this project. I added a cooldown feature, the xp storing features, the customizable welcome message, a way to share homes with players, and more.",
         "image":"Minecraft-Node-Wrapper.png",
-        "url":"https://github.com/JoshuaBaert/mc-node-wrapper"
+        "url":"https://youtu.be/69kquZaVZqg",
+        "github":"https://github.com/JoshuaBaert/mc-node-wrapper"
       },
       {
         "title":"React 21",
-        "category":"I built a primitive blackjack app as practice in React.",
+        "category":"A primitive blackjack app built in React.",
+        "details": "The react portion of this app was built fairly early in my career and I've just now given it a css facelift to make it more presentable. I would have preferred to use Bootstrap and more Sass features in this. However, because it is hosted as a component of this portfolio, the way the template is set up made it so that would require more effort than is worth it. Note: The below github link is for my entire portfolio, and also contains the code for this. In the readme you can see what parts of this portfolio are additions I've made to the template.",
         "image":"react21.png",
-        "url":"/react21"
+        "url":"/react21",
+        "github":"https://github.com/Gobsmack90/portfolio"
       },
       {
         "title":"Projects created for freeCodeCamp",
-        "category":"Scroll through the projects I've completed for course credit.",
+        "category":"See the projects I've completed for course credit.",
+        "details": "Much of my programming experience comes in the form of completing assignments for freeCodeCamp. I don't view those porjects as sufficient quality to showcase in this portfolio, but I present them here to make them available to any who'd like to see more.",
         "image":"freeCodeCamp-profile.png",
-        "url":"https://www.freecodecamp.org/gobsmack"
+        "url":"https://www.freecodecamp.org/gobsmack",
+        "github":"https://github.com/Gobsmack90"
       }
     ]
   },
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text":"Harrison has been surprisingly quick at learning hard subjects, and very resilient when hitting road blocks. He has found unexpected and undesirable behavior on apps and worked to correct them. Harrison holds himself very professionally, It was easy to trust him to directly communicate to a client. I think he would prove to be a very valuable resource for any team that would work with him.",
+        "user":"Josh Baert: TDBG Owner, Senior Developer and Mentor"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"Harrison has worked with me for the past four years. Over that time, I have seen him grow as a person and employee. We work in a fast-paced environment where thinking critically and quickly is a necessary skill. Over the time that Harrison was employed at Teck Advanced Materials, I saw these skills grow into a part of his daily work life. I would highly recommend Harrison. He is a quick learner and is great at following directions.",
+        "user":"Colby Higginson: Manager at Teck Advanced Materials"
       }
     ]
   }

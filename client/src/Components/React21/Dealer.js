@@ -3,9 +3,6 @@ import React from 'react';
 class Dealer extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            
-        }
         this.toggleHiddenScore = this.toggleHiddenScore.bind(this);
         this.toggleHiddenCard = this.toggleHiddenCard.bind(this);
     }

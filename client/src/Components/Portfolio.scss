@@ -1,0 +1,74 @@
+/* For the sake of readability, and because I am not a fan of the way the css was programmed in this template, I'm keeping my scss additions to the Portfolio in thier own file.*/
+
+$breakpoint-tablet: 770px;
+$breakpoint-mobile: 360px;
+
+.openItem {
+    position: fixed;
+    width: 40%;
+    height: 80%;
+    left: 50%;
+    bottom: 50%;
+    margin-left: -20%;
+    margin-bottom: -20%;
+    z-index: 1;
+    overflow: scroll;
+    background-color: white;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.6);
+
+    .openItem-title {
+        font-size: 32px;
+        text-align: center;
+        margin: 10px;
+    }
+    
+    .openItem-close {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 32px;
+    }
+    
+    .openItem-close:hover {
+        color: #F06000;
+    }
+    
+    .openItem-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+    
+    .openItem-navButtons {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 24px;
+        margin: 10px;
+        color: #F06000;
+    }
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .openItem {
+        width: 80%;
+        height: 70%;
+        left: 50%;
+        bottom: 50%;
+        margin-left: -40%;
+        margin-bottom: -45%;
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .openItem {
+        width: 100%;
+        height: 90%;
+        left: 0;
+        bottom: 50%;
+        margin-left: 0;
+        margin-bottom: -80%;
+    } 
+}
