@@ -155,7 +155,7 @@ class Blackjack extends React.Component {
                 dealerHand: [],
                 hidden: false,
                 bet: 0,
-                bank: 10
+                bank: 100
             });
         }
     }
