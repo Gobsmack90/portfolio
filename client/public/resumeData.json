@@ -2,7 +2,7 @@
   "main": {
     "name":"Harrison King",
     "occupation":"Fullstack Developer",
-    "description":"I live for creativity. Every new technology I learn, every new job I take, I do so to better express that creativity. Lets make something incredible together",
+    "description":"I live for creativity. Every new technology I learn, every new job I take, I do so to better express that creativity. Let's make something incredible together",
     "image":"profilepic.jpg",
     "bio":"I specialize in Javascript, React, Express, mongoDB and Mongoose. I have put hundreds of hours into building web apps using NodeJS and GitHub. I’ve worked with partners on these apps while using the principles of Agile development.",
     "contactmessage":"Don't hesitate to contact me. I'd love to discuss any opportunities.",
@@ -14,8 +14,8 @@
       "state":"Utah",
       "zip": "84129"
     },
-    "website": "http://www.harrisonking.com",
-    "resumedownload":"http://harrisonking.com/resume",
+    "website": "http://www.harrisonking.dev",
+    "resumedownload":"/resume",
     "social":[
       {
         "name":"linkedin",
@@ -142,7 +142,7 @@
       {
         "title":"React 21",
         "category":"A primitive blackjack app built in React.",
-        "details": "The react portion of this app was built fairly early in my career and I've just now given it a css facelift to make it more presentable. I would have preferred to use Bootstrap and more Sass features in this. However, because it is hosted as a component of this portfolio, the way the template is set up made it so that would require more effort than is worth it. Note: The below github link is for my entire portfolio, and also contains the code for this. In the readme you can see what parts of this portfolio are additions I've made to the template.",
+        "details": "The react portion of this app was built fairly early in my career and I've just now given it a css facelift to make it more presentable. I would have preferred to use Bootstrap and more Sass features in this. However, because it is hosted as a component of this portfolio, the way the template is set up made it so that would require more effort than is worth it. Note: The github link is for my entire portfolio, which also contains the code for this app. In the readme you can see what parts of this portfolio are additions I've made to the template.",
         "image":"react21.png",
         "url":"/react21",
         "github":"https://github.com/Gobsmack90/portfolio"
