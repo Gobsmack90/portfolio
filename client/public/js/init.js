@@ -162,6 +162,7 @@
                $('#contactForm').fadeOut();
                $('#message-success').fadeIn();   
             }
+            
             // There was an error
             else {
                $('#image-loader').fadeOut();
