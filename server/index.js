@@ -8,6 +8,8 @@ require('dotenv').config();
 
 const SENDGRID_USER = process.env.SENDGRID_USER;
 const SENDGRID_PASS = process.env.SENDGRID_PASS;
+const EMAIL_FROM = process.env.EMAIL_FROM;
+const EMAIL_TO = process.env.EMAIL_TO;
 
 // Have Node serve the files for our built React app
 app.use(express.static(path.resolve(__dirname, '../client/build')));
@@ -27,31 +29,36 @@ app.get("/resume", (req, res) => {
 });
 
 // POST route from contact form
-app.post('/contact', (req, res) => {
+app.post("/contact", (req, res) => {
 
   // Instantiate the SMTP server
   const smtpTrans = nodemailer.createTransport({
-    server: 'smtp.sendgrid.net',
-    port: 465,
-    username: SENDGRID_USER,
-    password: SENDGRID_PASS
+    // host: 'smtp.sendgrid.net',
+    // port: 465,
+    // secure: true,
+    service: 'SendGrid',
+    auth: {
+      user: SENDGRID_USER,
+      pass: SENDGRID_PASS
+    }
   })
 
   // Specify what the email will look like
   const mailOpts = {
-    from: 'Your sender info here', // This is ignored by Gmail
-    to: SENDGRID_USER,
-    subject: 'New message from contact form at harrisonking.dev',
+    from: EMAIL_FROM,
+    to: EMAIL_TO,
+    subject: `New contact request from ${req.body.contactName} at harrisonking.dev`,
     text: `${req.body.contactName} (${req.body.contactEmail}) says: ${req.body.contactSubject}: ${req.body.contactMessage}`
   }
 
   // Attempt to send the email
   smtpTrans.sendMail(mailOpts, (error, response) => {
     if (error) {
-      res.render('contact-failure') // Show a page indicating failure
+      console.error(error)
+      res.sendStatus(500) // Show a page indicating failure
     }
     else {
-      res.render('contact-success') // Show a page indicating success
+      res.sendStatus(200) // Show a page indicating success
     }
   })
 })
