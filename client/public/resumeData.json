@@ -6,20 +6,20 @@
     "image":"profilepic.jpg",
     "bio":"I specialize in Javascript, React, Express, mongoDB and Mongoose. I have put hundreds of hours into building web apps using NodeJS and GitHub. I’ve worked with partners on these apps while using the principles of Agile development.",
     "contactmessage":"Don't hesitate to contact me. I'd love to discuss any opportunities.",
-    "email": "authorharrisonking@gmail.com",
+    "email": "harrison@harrisonking.dev",
     "phone": "801-860-0773",
     "address":{
-      "street":"4900 Southridge Drive",
-      "city":"Salt Lake City",
+      "street": "",
+      "city":"Salt Lake City,",
       "state":"Utah",
-      "zip": "84129"
+      "zip": ""
     },
     "website": "http://www.harrisonking.dev",
     "resumedownload":"/resume",
     "social":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/harrison-king-886b2620b/",
+        "url":"www.linkedin.com/in/harrison-king-dev",
         "className":"fa fa-linkedin"
       },
       {
