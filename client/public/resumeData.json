@@ -14,17 +14,17 @@
       "state":"Utah",
       "zip": ""
     },
-    "website": "http://www.harrisonking.dev",
+    "website": "http://harrisonking.dev",
     "resumedownload":"/resume",
     "social":[
       {
         "name":"linkedin",
-        "url":"www.linkedin.com/in/harrison-king-dev",
+        "url":"https://www.linkedin.com/in/harrison-king-dev",
         "className":"fa fa-linkedin"
       },
       {
         "name":"github",
-        "url":"https://github.com/Gobsmack90",
+        "url":"https://www.github.com/Gobsmack90",
         "className":"fa fa-github"
       },
       {
