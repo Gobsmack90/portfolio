@@ -4,8 +4,8 @@
     "occupation":"Fullstack Developer",
     "description":"I live for creativity. Every new technology I learn, every new job I take, I do so to better express that creativity. Let's make something incredible together",
     "image":"profilepic.jpg",
-    "bio":"I specialize in Javascript, React, Express, mongoDB and Mongoose. I have put hundreds of hours into building web apps using NodeJS and GitHub. I’ve worked with partners on these apps while using the principles of Agile development.",
-    "contactmessage":"Don't hesitate to contact me. I'd love to discuss any opportunities.",
+    "bio":"I'm experienced with Javascript, React, Redux, Express, mongoDB and Mongoose. I have put hundreds of hours into building web apps using NodeJS. I’ve worked with partners on these apps while using the principles of Agile development.",
+    "contactmessage":"Use the form below to contact me.",
     "email": "harrison@harrisonking.dev",
     "phone": "801-860-0773",
     "address":{
@@ -108,7 +108,7 @@
         "level":"40%"
       },
       {
-        "name":"Common Front End Libraries, incl. Bootstrap, Sass, Redux",
+        "name":"Bootstrap, Sass, Redux, etc.",
         "level":"70%"
       }
     ]

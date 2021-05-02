@@ -419,7 +419,7 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
+   padding-top: 70px;
    padding-bottom: 60px;
 }
 #portfolio h1 {
@@ -427,8 +427,16 @@ ul#nav li.current a { color: #F06000; }
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
-   margin-bottom: 48px;
+   margin-bottom: 20px;
    color: #95A3A3;
+}
+
+#portfolio h2 {
+   font: 13px/21px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   text-align: center;
+   margin-bottom: 30px;
+   color:#11ABB0;
 }
 
 /* Portfolio Content */
