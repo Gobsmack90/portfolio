@@ -22,7 +22,7 @@ class Portfolio extends Component {
 
     return (
       <div className='openItem' >
-        <h2 className='openItem-title' >{project.title}</h2>
+        <p className='openItem-title' >{project.title}</p>
         <p className='openItem-subtitle'>{project.category}</p>
         <div className='openItem-close' onClick={() => this.setOpen(null)}><i className="fa fa-times"></i></div>
         <img className='openItem-image' alt={project.title} src={projectImage} />
