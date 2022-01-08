@@ -1,10 +1,10 @@
 {
   "main": {
     "name":"Harrison King",
-    "occupation":"Fullstack Developer",
-    "description":"I live for creativity. Every new technology I learn, every new job I take, I do so to better express that creativity. Let's make something incredible together",
+    "occupation":"Front End Developer",
+    "description":"I live for creativity and love to contribute to projects by constantly iterating and improving them. I find great fulfillment thinking of and implementing these improvements. I love to make awesome things. Let's make awesome things together.",
     "image":"profilepic.jpg",
-    "bio":"I'm experienced with Javascript, React, Redux, Express, mongoDB and Mongoose. I have put hundreds of hours into building web apps using NodeJS. I’ve worked with partners on these apps while using the principles of Agile development.",
+    "bio":"I'm a Front End developer experienced in Angular and React. I'm among a select few with experience using HTML5 and Javascript's canvas tools. I'm part of a small team that built a powerful new workflow app called RithmXO.",
     "contactmessage":"Use the form below to contact me.",
     "email": "harrison@harrisonking.dev",
     "phone": "801-860-0773",
@@ -35,7 +35,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"While most of my focus thus far has been on front end development, I am able to work on the back-end. I'm studying and working on both sides of development all the time to increase my skills and shore up my shortcomings.",
+    "skillmessage":"I'm comfortable working on both Angular and React Front Ends. I'm less comfortable in the Back End, but I'm happy to learn more if that's where I'm needed.",
     "education":[
       {
         "school":"University of Utah",
@@ -46,70 +46,78 @@
     ],
     "work":[
       {
+        "company":"RithmXO",
+        "title":"Front End Developer",
+        "years":"Jun 2021 - Present",
+        "description":"Developed an Angular Front End for a workflow app startup called Rithm. Had the opportunity to develop a complex map as a part of this app using HTML5's canvas element."
+      },
+      {
         "company":"TBDG",
         "title":"Freelance Developer",
-        "years":"Dec 2020 - Present",
-        "description":"I've been doing some freelance Web Dev with a team of friends. I've mostly been programming in React and working on front end stuff in the projects we've worked on together."
+        "years":"Dec 2020 - May 2021",
+        "description":"I did some freelance web dev with a team of friends. We programed in React with Node.js. I focused on front end in the projects we worked on together."
       },
       {
         "company":"Teck Advanced Materials",
         "title":"Material Technician ",
-        "years":"Jan 2017 - Present",
-        "description":"I work with copper, tin and other metals. We purify, clean, mold and prep metals for electronics manufacturing."
+        "years":"Jan 2017 - June 2021",
+        "description":"I worked with copper, tin and other metals. We purify, clean, mold and prep metals for electronics manufacturing."
       },
       {
         "company":"TMRW Productions",
         "title":"Editor/Content Director",
         "years":"Jan 2016 - May 2017",
         "description":"Made professional videos for companies. Worked on set, in pre-production, and edited. Also had a role in sales."
-      },
-      {
-        "company":"Wasatch Savings",
-        "title":"Account Rep",
-        "years":"Jun 2014 - Sep 2016",
-        "description":"Recruited and worked with businesses to put them in the Wasatch Savings Guide, a school fundraiser deals book."
       }
     ],
     "skills":[
       {
-        "name":"ReactJs",
-        "level":"80%"
-      },
-      {
-        "name":"JavaScript",
+        "name":"Angular",
         "level":"90%"
       },
       {
-        "name":"CSS",
+        "name":"ReactJs",
         "level":"70%"
+      },
+      {
+        "name":"TypeScript",
+        "level":"90%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"95%"
+      },
+      {
+        "name":"SCSS",
+        "level":"100%"
       },
       {
         "name":"HTML5",
-        "level":"70%"
+        "level":"100%"
+      },
+      {
+        "name":"Tailwind",
+        "level":"80%"
+      },
+      {
+        "name":"Bootstrap",
+        "level":"80%"
       },
       {
         "name":"Express",
-        "level":"40%"
+        "level":"30%"
       },
       {
         "name":"MongoDB",
-        "level":"50%"
-      },
-      {
-        "name":"NodeJS",
-        "level":"60%"
-      },
-      {
-        "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"JQuery",
         "level":"40%"
       },
       {
-        "name":"Bootstrap, Sass, Redux, etc.",
-        "level":"70%"
+        "name":"NodeJS",
+        "level":"45%"
+      },
+      {
+        "name":"Git",
+        "level":"75%"
       }
     ]
   },
