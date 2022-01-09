@@ -124,9 +124,17 @@
   "portfolio":{
     "projects": [
       {
+        "title":"RithmXO",
+        "category":"An app built to more easily visualize and automatize workflows.",
+        "details": "(App not live yet) If you dig into the Rithm Front End, you won't find a single piece of the app that my code doesn't touch. I was part of the team from nearly the beginning and so I have built much of the app's structure myself, which is programmed in Angular. I've been especially involved in the Map, which uses a canvas element to render a map of workstations that can be dynamically moved and changed. The work on this page has been complex and challenging and I'm very proud of it.",
+        "image":"RithmXO.png",
+        "url":"https://www.rithmXO.com/",
+        "github":""
+      },
+      {
         "title":"Our Fish Collective",
-        "category":"Participating in a rebuild of this website. We're adding a better multivendor setup to the site.",
-        "details": "(Note: our rebuild is not yet live. This is an ongoing project that started in March 2021.) The primary goal of this rebuild is to allow individual venders to add thier own products without needing to go through the website admin. To this end, we're reconstructing everything in the site. Up to now, I've mainly been involved in the front end side of things. So far, I've built the Footer and Recently Added components.",
+        "category":"Began a rebuild of this site to allow for a better multivendor setup to the site.",
+        "details": "A website rebuild done with my team at TBDG. The primary goal of this rebuild is to allow individual venders to add their own products without needing to go through the website admin. To this end, we began work reconstructed everything in the site. I left the project before I could see it through but contributed a lot to get the front end up.",
         "image":"ofc_rebuild.png",
         "url":"https://www.ourfishcollective.com/",
         "github":"https://github.com/TBDG/ofc-front-end"
@@ -154,14 +162,6 @@
         "image":"react21.png",
         "url":"/react21",
         "github":"https://github.com/Gobsmack90/portfolio"
-      },
-      {
-        "title":"Projects created for freeCodeCamp",
-        "category":"See the projects I've completed for course credit.",
-        "details": "Much of my programming experience comes in the form of completing assignments for freeCodeCamp. I don't view those porjects as sufficient quality to showcase in this portfolio, but I present them here to make them available to any who'd like to see more.",
-        "image":"freeCodeCamp-profile.png",
-        "url":"https://www.freecodecamp.org/gobsmack",
-        "github":"https://github.com/Gobsmack90"
       }
     ]
   },
