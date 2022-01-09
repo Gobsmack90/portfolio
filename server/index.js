@@ -25,7 +25,7 @@ app.get("/api", (req, res) => {
 
 // Handle resume download requests.
 app.get("/resume", (req, res) => {
-  res.download(__dirname + '/ResumeApr2021.pdf');
+  res.download(__dirname + '/ResumeJan2022.pdf');
 });
 
 // POST route from contact form
